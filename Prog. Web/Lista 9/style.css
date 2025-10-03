@@ -1,0 +1,51 @@
+h1{
+    color: blue;
+    text-align: center;
+    font-style: oblique;
+    font-variant: small-caps;
+}
+
+/*
+H1 é o titulo, onde está pintado e ficou no centro, 
+poderia ter usado o center do html
+*/
+
+h2{
+    color: rgb(0, 0, 169);
+    text-align: center;
+    font-style: italic;
+    font-variant: inherit;
+    font-stretch: condensed;
+}
+
+/*
+H2 é o subtitulo, usei rgb e ficou em italico, 
+e por algum motivo font stretch não funciona aqui
+*/
+
+p{
+    color: rgb(0, 223, 235);
+    text-align: justify;
+    font-style: italic;
+    font-variant: inherit;
+    font-size: large;
+}
+
+/*
+p é o subtitulo do subtitulo, deixei ele na esquerda, 
+e o tamanho do Texto não aumentou com o comando
+*/
+
+.imag{
+    width: 400px;
+    height: 400px;
+    background-image: url(pizza.jpeg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*
+imag é a primeira classe, pizza de sushi é bem ruim do que parece, 
+tamanho ficou meio zuado, preciso testar depois
+*/
