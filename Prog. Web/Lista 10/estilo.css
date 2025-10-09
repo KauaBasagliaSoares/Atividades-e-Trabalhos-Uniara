@@ -1,0 +1,27 @@
+h1 {
+    border-width: 1px;
+    border-color: red;
+    background-color: #D18C1D;
+    padding: 10px;
+    border-style: solid dashed;
+}
+
+li {
+    margin: 15px 15px;
+    background-color: #C0A9DB;
+}
+
+p {
+    padding: 600px 400px;
+    border: solid black;
+    border-width: 2px;
+    background-color: #D1D631;
+    border-style: solid dotted;
+}
+
+a {
+    border-width: 3px;
+    border-color: black black blue;
+    border-style: solid dotted;
+    background-color: #a1a1a1;
+}
