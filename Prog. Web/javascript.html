@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <script>
+        function somar() {
+            a = document.getElementById('A').value;
+            b = document.getElementById('B').value;
+            soma = parseInt(a) + parseInt(b);
+            result = 'O resultado da soma é: ' + soma;
+            alert(result);
+        }    
+        function sub() {
+            a = document.getElementById('A').value;
+            b = document.getElementById('B').value;
+            subtracao = parseInt(a) - parseInt(b);
+            result = 'O resultado da subtração é: ' + subtracao;
+            alert(result);
+        }
+        function mult() {
+            a = document.getElementById('A').value;
+            b = document.getElementById('B').value;
+            multiplicacao = parseInt(a) * parseInt(b);
+            result = 'O resultado da multiplicação é: ' + multiplicacao;
+            alert(result);
+        }
+        function div() {
+            a = document.getElementById('A').value;
+            b = document.getElementById('B').value;
+            divisao = parseInt(a) / parseInt(b);
+            result = 'O resultado da divisão é: ' + divisao;
+            alert(result);
+        }
+    </script>
+<body>
+    
+    Valor A <input type="text" id="A" />
+    Valor B <input type="text" id="B" />
+            <input type="submit" value="Somar" onclick="somar()"/>
+            <input type="submit" value="Subtrair" onclick="sub()"/>
+            <input type="submit" value="Multiplicar" onclick="mult()"/>
+            <input type="submit" value="Divisao" onclick="div()"/>
+
+</body>
+</html>
